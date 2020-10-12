@@ -1,17 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+        <Input/>
+        <Response/>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Input from '@/components/Input.vue'
+import Response from '@/components/Response.vue'
+import '@/assets/globalStyles.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Input,
+    Response
   }
 }
+
 </script>
 
 <style>
@@ -23,4 +29,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
