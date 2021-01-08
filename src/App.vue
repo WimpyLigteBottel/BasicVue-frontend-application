@@ -1,20 +1,15 @@
 <template>
-    <div>
-        <Input/>
-        <Response/>
-    </div>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld/>
 </template>
 
 <script>
-import Input from '@/components/Input.vue'
-import Response from '@/components/Response.vue'
-import '@/assets/globalStyles.css'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    Input,
-    Response
+    HelloWorld
   }
 }
 
